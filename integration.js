@@ -9,7 +9,7 @@ var EasyBooking = function(config){
 
     var iframe = document.createElement('iframe');
     iframe.id = 'easybooking-widget';
-    iframe.setAttribute('src', 'http://localhost:5000/platform.html');
+    iframe.setAttribute('src', 'https://justinglibert.github.io/southside-easybooking-test/platform.html');
     iframe.setAttribute('data-organisation-id', config.organisationId );
     iframe.setAttribute('data-flat-id', config.flatId );
     iframe.style.border = 'none';
