@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+    body { background: rgba(0, 0, 0, 0.4);}
+  </style>
+<body>
+    <div id="modal" class="modal-revealed">
+        <div id="bookingjs"></div>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="booking.js"></script>
+    <script type="text/javascript">
+          if(parent.document.getElementById('easybooking-widget')){
+            console.log(parent.document.getElementById('easybooking-widget').getAttribute('data-organisation-id'));
+
+            console.log(parent.document.getElementById('easybooking-widget').getAttribute('data-flat-id'));
+          };
+          EasyViewing().init({
+          name:     'Flat Viewing',
+          email:    'marty.mcfly@timekit.io',
+          apiToken: 'XT1JO879JF1qUXXzmETD5ucgxaDwsFsd',
+          calendar: '22f86f0c-ee80-470c-95e8-dadd9d05edd2',
+          parent: parent,
+          avatar:   'icon.jpg',
+          bookingFields: {
+            name: {
+              placeholder: 'Your name please'
+            },
+            email: {
+            },
+            phone: {
+              enabled: true,
+              required: true
+            },
+          },
+          fullCalendar:{
+            minTime: "07:00:00",
+            maxTime: "20:00:00"
+          },
+        });
+      </script>
+</body>
+</html>

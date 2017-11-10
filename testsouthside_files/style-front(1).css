@@ -1,0 +1,225 @@
+
+.epl-la-clearfix {
+    clear: both;
+    float: none;
+}
+.epl-la-subscribe-form {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    clear: both;
+    margin-top: 30px;
+    padding: 25px;
+}
+.epl-la-subscribe-form h3.epl_la_form_title {
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+}
+.epl-la-subscribe-form .epl_la_description {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.epl-la-subscribe-form .epl_la_description p {
+    margin: 0;
+}
+
+
+
+#la-submit{
+clear:both;
+margin:0 !important;
+}
+
+.chosen-container-active .chosen-choices{
+border:solid 1px #eee !important;
+border-radius:3px;
+padding:10px;
+}
+
+.search-field input.default{
+padding:0 15px;
+}
+
+.la-row-epl_la_price_min_sale{
+display:none !important;
+}
+
+
+.single .selection-box{
+margin-bottom:10px;
+}
+
+.la-row-epl_la_location{
+width:95% !important;
+}
+
+#epl_la_location_chosen{
+width:98% !important;
+}
+
+
+#epl_la_subscribe{
+margin-right:10px;
+}
+
+.la-row-epl_la_subscribe{
+width:100% !important;
+}
+
+.la-form-bottom-container-expandable {
+    display: none;
+}
+.epl-la-subscribe-form .epl_la_head {
+    float: left;
+    width: 60%;
+}
+.epl-la-subscribe-form .epl_la_sub_head {
+    float: right;
+    width: 36%;
+}
+.epl-la-subscribe-form .la-form-bottom-container .la-row {
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 1%;
+    padding: 5px;
+    vertical-align: top;
+    width: 45%;
+}
+.epl-la-subscribe-form .la-form-bottom-container .la-row .fm-label {
+    font-family: arial;
+    font-size: 12px;
+}
+.epl-la-subscribe-form .la-form-bottom-container .la-row .field input[type="text"], .epl-la-subscribe-form .la-form-bottom-container .la-row .field input[type="url"], .epl-la-subscribe-form .la-form-bottom-container .la-row .field input[type="password"], .epl-la-subscribe-form .la-form-bottom-container .la-row .field input[type="username"], .epl-la-subscribe-form .la-form-bottom-container .la-row .field select {
+    width: 94%;
+}
+.epl-la-subscribe-form .la-form-bottom-container .la-row .field .field_l input[type="text"] {
+    margin-bottom: 10px;
+}
+.epl-la-subscribe-form .la-form-bottom-container .la-row .field select#property_type {
+    height: 70px;
+}
+.epl-la-subscribe-form p.description {
+    font-size: 12px;
+    font-style: italic;
+    margin: 0 0 14px;
+}
+.epl-la-subscribe-form input.la-form-toggler {
+    background: none repeat scroll 0 0 #555;
+    border: 1px solid #000;
+    color: #fff;
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.form-listing-alerts.processing input[type="submit"] {
+    cursor: progress;
+    opacity: 0.5;
+}
+#epl_la_notices {
+    border-radius: 10px;
+    clear: both;
+    color: #555;
+    font-size: 11px;
+    margin: 5px 0;
+    padding: 5px 5px 5px 30px;
+}
+#epl_la_notices ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#epl_la_notices li {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#epl_la_notices span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#epl_la_notices.error {
+    background: url("../images/error.png") no-repeat scroll 10px 50% #ffecec;
+    border: 1px solid #f5aca6;
+}
+#epl_la_notices.success {
+    background: url("../images/success.png") no-repeat scroll 10px 50% #e9ffd9;
+    border: 1px solid #a6ca8a;
+}
+#epl_la_notices.warning {
+    background: url("../images/warning.png") no-repeat scroll 10px 50% #fff8c4;
+    border: 1px solid #f2c779;
+}
+#epl_la_notices.notice {
+    background: url("../images/notice.png") no-repeat scroll 10px 50% #e3f7fc;
+    border: 1px solid #8ed9f6;
+}
+#epl_la_notices.success {
+}
+#epl-la-unsub-container {
+    background: none repeat scroll 0 0 #dddddd;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 20px 0;
+    text-align: center;
+}
+#epl-la-unsub-container p {
+    margin: 0 0 10px;
+}
+#epl-la-unsub-container > h2 {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+#epl-la-unsub-container .intro {
+    font-size: 13px;
+}
+#epl-la-unsub-container .form-radio {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+#epl-la-unsub-container .form-radio > label {
+    float: left;
+    margin: 0 0 2px;
+    padding: 0;
+    width: 100%;
+}
+#epl-la-unsub-container .form-radio input {
+    margin-top: 0;
+}
+#epl-la-unsub-container form .input {
+    clear: both;
+    display: inline;
+    margin: 0;
+    padding: 5px 0 10px;
+    width: auto;
+}
+#epl-la-unsub-container form .submit {
+    display: inline;
+}
+#epl-la-unsub-container form .input input {
+    box-shadow: 2px 2px 2px #999;
+    color: #999;
+    font-size: 10pt;
+    max-width: 300px;
+    width: 90%;
+}
+#epl-la-unsub-container .unsubscribe_all.button {
+    background: none repeat scroll 0 0 #333333;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 30px;
+}
+#epl-la-unsub-container .unsubscribe_all.button:hover {
+    background-color: #b1000e;
+}
+#epl-la-unsub-container #epl_la_notices {
+    display: inline-block;
+    padding-right: 10px;
+    width: auto;
+}
